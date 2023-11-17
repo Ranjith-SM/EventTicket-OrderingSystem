@@ -1,0 +1,105 @@
+<nav class="navbar navbar-expand-lg py-3">
+  <div class="pe-lg-0 ps-lg-5 container-fluid justify-content-between">
+    <a class="navbar-brand" href="#">
+      <img src="src/assets/logo.png" alt="logo" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarSupportedContent"
+    >
+      <div class="nav_left d-lg-flex align-items-center">
+        <nav>
+          <div
+            class="nav d-block d-lg-flex nav-tabs"
+            id="nav-tab"
+            role="tablist"
+          >
+            <button
+              class="nav-link active"
+              id="home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#home"
+              type="button"
+              role="tab"
+              aria-controls="home"
+              aria-selected="true"
+            >
+              Home
+            </button>
+            <button
+              class="nav-link"
+              id="about-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#about"
+              type="button"
+              role="tab"
+              aria-controls="about"
+              aria-selected="false"
+            >
+              Entertainment
+            </button>
+            <button
+              class="nav-link"
+              id="timing-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#timing"
+              type="button"
+              role="tab"
+              aria-controls="timing"
+              aria-selected="false"
+            >
+              Sports
+            </button>
+
+            <div class="nav d-block d-lg-flex nav-tabs dropdown">
+              <button
+                class="btn dropdown-toggle nav-link"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Location
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item active" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="position-relative d-inline-block me-lg-4">
+          <i
+            class="fad fa-search"
+            style="
+              --fa-primary-color: #ff9b9b;
+              --fa-secondary-color: #000000;
+              --fa-secondary-opacity: 0.5;
+            "
+          ></i>
+          <input
+            class="search_input ms-5 mb-3 mb-lg-0 ms-lg-0 pe-5 ps-3"
+            type="search"
+            placeholder="Find Events"
+            aria-label="Search"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
